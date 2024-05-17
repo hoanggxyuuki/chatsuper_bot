@@ -3,3 +3,5 @@ Sử dụng Api được tích hợp vào ngôn ngữ js cho ra sản phẩm Sup
 Setup in file script.js
 -Thay thế api key trong mục "Authorization"<br>
 -Thay thế id bot của bạn trong "bot_id"
+<br>
+Thử sản phẩm tại đây : <a href="https://hoanggxyuuki.github.io/ChatBot_js/">Chatsuper_bot</a>
