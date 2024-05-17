@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatBot</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2>Chatbot</h2>
+    </div>
+    <div class="chat-body">
+      <div class="chat-messages">
+        <div class="chat-message bot">
+          <div class="chat-message-text">Hello! I'm your chatbot</div>
+        </div>
+      </div>
+    </div>
+    <div class="chat-input">
+      <input type="file" id="file-upload" accept="image/*,application/pdf">
+      <button id="file-upload-icon"><i class="fas fa-upload"></i></button>
+      <input type="text" placeholder="Type your message..." id="chat-input">
+      <button id="chat-send">Send</button>
+      <button id="new-chat">New Chat</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/antimatter15/ocrad.js/ocrad.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
